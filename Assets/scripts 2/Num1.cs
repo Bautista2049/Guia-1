@@ -10,10 +10,9 @@ public class Num1 : MonoBehaviour
     void Start()
     {
         num1 = 0;
+        num1 = num1 + 2;
         Debug.Log(num1);
-        num1 = 2;
-        Debug.Log(num1);
-        num1 = 2 * 2;
+        num1 = num1 * num1;
         Debug.Log(num1);
 
     }
